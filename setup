@@ -7,3 +7,5 @@ if ! command -v chezmoi >/dev/null; then
 fi
 
 exit 0
+
+sudo apt update && sudo apt install vim -y
